@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 40px;
+}
+table{
+    border: 2px solid #111;
+    border-collapse: collapse;
+    width: 100%;
+    outline: 1px solid #111;
+    outline-offset: 5px;
+}
+/*th{
+    border: 1px solid #111;
+}
+*/
+td{
+    border: 1px solid #111;
+}
+thead{
+    border: 2px solid#111;
+    text-align: center;
+    vertical-align: top;
+}
+
+tbody{
+    vertical-align: top;
+}
+
+#table thead td:nth-child(3){
+    vertical-align: bottom;
+}
+#table tfoot td:nth-child(1){
+    vertical-align: top;
+}
+#table tbody td:nth-child(3) {
+    border-right: 2px solid #111;
+}
